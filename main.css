@@ -13,7 +13,7 @@ div {
     display: inline-block;
     width: 33%;
     margin: 10px auto;
-    padding: 25px 35px 25px 35px;
+    padding: 25px 35px 10px 35px;
     vertical-align: top;
 }
 
