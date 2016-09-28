@@ -13,7 +13,7 @@ div {
     display: inline-block;
     width: 33%;
     margin: 10px auto;
-    padding: 25px 30px 25px 30px;
+    padding: 25px 35px 25px 35px;
     vertical-align: top;
 }
 
@@ -64,8 +64,8 @@ textarea {
 }
 
 textarea:focus {
-	resize: none;
-	width: 100%;
+    resize: none;
+    width: 100%;
     outline: none;
     color: white;
     border: 2px solid #2A6A98;
@@ -73,53 +73,14 @@ textarea:focus {
     font-family: 'Merriweather', serif;
 }
 
-@media screen and (min-width:350px) and (max-width: 1000px) {
+@media screen and (min-width:350px) and (max-width: 990px) {
     div {
         width: 100%;
     }
 }
 
-/*test comment*/
-
-/*@media screen and (max-width: 990px) {
-    .column_1 {
-        width: 50%;
-        padding: 1% 4%;
-        float: left;
-    }
-    .column_2 {
-        width: 50%;
-        padding: 1% 4%;
-        margin: 0px 0px 5px 5px;
-        clear: right;
-    }
-    .column_3 {
-        clear: both;
-        padding: 1% 4%;
-        width: auto;
-        float: left;
+@media screen and (min-width:990px) and (max-width: 1150px) {
+    div {
+        padding: 25px 8px 25px 8px;
     }
 }
-
-@media screen and (max-width: 600px) {
-    .column_1 {
-        width: auto;
-        float: none;
-    }
-    .column_2 {
-        width: auto;
-        float: none;
-        margin-left: 0px;
-    }
-    .column_3 {
-        width: auto;
-        float: none;
-        clear: both;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    h1 {
-        font-size: 2em;
-    }
-}*/
